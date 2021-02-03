@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  background: #ffffff;
+}
+
+.main_button_1 {
+  padding: 2em;
+  height: 10em;
+  width: 100%;
+  background: #3b5998;
+}
+
+.main_button_1 a {
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 2em;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.main_button_1 a:hover {
+  padding: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #ffffff;
+  color: #3b5998;
+}
+
+.main_button_2 {
+  padding: 2em;
+  height: 10em;
+  width: 100%;
+  background: #E60023;
+}
+
+.main_button_2 a {
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 2em;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.main_button_2 a:hover {
+  padding: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #ffffff;
+  color: #E60023;
+}
+
+.main_button_3 {
+  padding: 2em;
+  height: 10em;
+  width: 100%;
+  background: #C13584;
+}
+
+.main_button_3 a {
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 2em;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.main_button_3 a:hover {
+  padding: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #ffffff;
+  color: #C13584;
+}
+/*# sourceMappingURL=botoes.css.map */

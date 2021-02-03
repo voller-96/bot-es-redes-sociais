@@ -1,0 +1,98 @@
+//variáveis
+$cor-principal : #ffffff;
+$cor-facebook : #3b5998;
+$cor-pinterest : #E60023;
+$cor-instagram : #C13584;
+$tamanho-fonte : 2em;
+
+@mixin transicao-espacamento-hover{
+  padding : 20px;
+  transition : 0.5s;
+}
+
+@mixin tamanho-fundo {
+  padding:2em;
+  height :10em;
+  width : 100%;
+}
+*{
+  padding:0;
+  margin:0;
+  border:0;
+  vertical-align:baseline;
+  list-style:none;
+}
+//header da aplicação
+header h1 {
+  text-align:center;
+  font-size:$tamanho-fonte;
+  padding:1em;
+  background: $cor-principal;
+}
+
+//Primeiro botão
+.main_button_1 {
+  @include tamanho-fundo;
+  background: $cor-facebook;
+}
+
+.main_button_1 a{
+  text-align:center;
+  color :$cor-principal;
+  padding : 15px;
+  text-decoration:none;
+  font-size:$tamanho-fonte;
+  border : 1px solid $cor-principal; 
+  border-radius : 10px;
+}
+
+.main_button_1 a:hover {
+  @include transicao-espacamento-hover;
+  background :$cor-principal;
+  color : $cor-facebook;
+}
+
+//segundo-botão
+.main_button_2 {
+  @include tamanho-fundo;
+  background : $cor-pinterest;
+}
+
+.main_button_2 a{
+    text-align:center;
+    color : $cor-principal;
+    padding : 15px;
+    text-decoration:none;
+    font-size:$tamanho-fonte;
+    border : 1px solid $cor-principal; 
+    border-radius : 10px;
+}
+
+.main_button_2 a:hover {
+  @include transicao-espacamento-hover;
+  background : $cor-principal;
+  color : $cor-pinterest;
+}
+
+// terceiro-botão
+.main_button_3 {
+  @include tamanho-fundo;
+  background : $cor-instagram;
+}
+
+.main_button_3 a{
+    text-align:center;
+    color : $cor-principal;
+    padding : 15px;
+    text-decoration:none;
+    font-size:$tamanho-fonte;
+    border : 1px solid $cor-principal; 
+    border-radius : 10px;
+}
+
+.main_button_3 a:hover{
+  @include transicao-espacamento-hover;
+  background :$cor-principal;
+  color :$cor-instagram;
+  ;
+}
